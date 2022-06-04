@@ -1,0 +1,40 @@
+@import './base.scss';
+.home {
+    background: #F9EBC8;
+    width: 100%;
+    height: 900px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    animation: floatIn ease .9s forwards;
+
+    
+
+    .title {
+        position: absolute;
+        top: 280px;
+        left: 48px;
+        font-size: 5rem;
+        font-weight: 900;
+    }
+
+    .get-to-know-me {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 550px;
+        left: 48px;
+        background: #91ADB4;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .home-img {
+        position: absolute;
+        top: 120px;
+        right: 100px;
+        border-radius: 50%;
+        width: 600px;
+        height: 600px;
+        object-fit: cover;
+        object-position: 110% 20%;
+    }
+}
